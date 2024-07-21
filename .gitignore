@@ -1,0 +1,6 @@
+media-thingy-backups
+kbplacer.log
+fp-info-cache
+*.lck
+*autosave*
+*auto_save*
