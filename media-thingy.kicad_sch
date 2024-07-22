@@ -1857,16 +1857,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 45.72) (xy 254 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444d2f0f-b0b0-498f-a56a-f1978b455ae0")
-	)
-	(wire
-		(pts
 			(xy 151.13 39.37) (xy 151.13 52.07)
 		)
 		(stroke
@@ -2173,28 +2163,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO 16"
-		(shape input)
-		(at 254 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92351636-5a43-4baa-97d0-cddf4d9c706f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.8471 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3500,72 +3468,6 @@
 			(project ""
 				(path "/e264615a-cfc9-4c30-a9bd-ca174a1b283c"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 267.97 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd3dfa1e-5842-4464-b58d-745257ff87b6")
-		(property "Reference" "#PWR015"
-			(at 267.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 267.97 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 267.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d442bd8-8625-4c0a-bf20-c3fcdcebf29e")
-		)
-		(instances
-			(project ""
-				(path "/e264615a-cfc9-4c30-a9bd-ca174a1b283c"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
